@@ -1,0 +1,13 @@
+{
+    "categories": {
+        "0": "technical",
+        "1": "productivity"
+    },
+    "description": "This plugin allows you to display timestamps in a less exact, more readable format such as:\n- \"3 days ago\"\n- \"in a couple of hours\"\n- \"a year ago\"\n- \"just now\"\n\nUsers input a start date/time and an end date/time, the plugin calculates the difference in time and returns it as a text string. An empty start or end value will register as the current date/time. \n\nLibrary: https://github.com/philbooth/vagueTime.js",
+    "image": "//s3.amazonaws.com/appforest_uf/f1561410030107x476093504753605250/clock.svg",
+    "instructions": "",
+    "license": "open_source",
+    "link": "airdev.co",
+    "name": "VagueTime Timestamps",
+    "plugin_instructions": "- Add the VagueTime element to your page\n- Input a start date and time and/or end date and time\n- Reference the \"Timestamp string\" field on the VagueTime element to receive the time difference in text form"
+}

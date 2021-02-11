@@ -1,0 +1,38 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 20,
+        "width": 20
+    },
+    "display": "VagueTime",
+    "fields": {
+        "AAE": {
+            "caption": "From date",
+            "editor": "DynamicValue",
+            "name": "fromDate",
+            "optional": true,
+            "rank": 0,
+            "value": "date"
+        },
+        "AAF": {
+            "caption": "To date",
+            "editor": "DynamicValue",
+            "name": "toDate",
+            "optional": true,
+            "rank": 1,
+            "value": "date"
+        }
+    },
+    "icon": "ion-android-time",
+    "states": {
+        "AAG": {
+            "caption": "Timestamp string",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "timeString",
+            "value": "text"
+        }
+    }
+}
